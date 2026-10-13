@@ -1,0 +1,28 @@
+name: Unzip project
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unzip
+        run: |
+          mkdir /tmp/x
+          unzip -q GestureControl.zip -d /tmp/x
+          if [ "$(ls -A /tmp/x | wc -l)" -eq 1 ] && [ -d "/tmp/x/$(ls -A /tmp/x)" ]; then
+            src="/tmp/x/$(ls -A /tmp/x)"
+          else
+            src=/tmp/x
+          fi
+          cp -a "$src"/. .
+          rm GestureControl.zip
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Extract project from zip"
+          git push
