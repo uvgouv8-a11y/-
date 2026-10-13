@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تحكم بالإيماءات</string>
+    <string name="accessibility_description">يسمح للتطبيق بتنفيذ أوامر مثل الرجوع والتمرير والنقر بناءً على إيماءات يدك أمام الكاميرا.</string>
+</resources>

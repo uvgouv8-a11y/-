@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- أربع زوايا كمنظار الكاميرا؛ النسبة 100×122 قريبة من نسبة مساحة المعاينة -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="440dp"
+    android:viewportWidth="100"
+    android:viewportHeight="122">
+    <path
+        android:pathData="M0.8,15 L0.8,6 Q0.8,0.8 6,0.8 L15,0.8"
+        android:strokeColor="#E622D3EE"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.3" />
+    <path
+        android:pathData="M99.2,15 L99.2,6 Q99.2,0.8 94,0.8 L85,0.8"
+        android:strokeColor="#E622D3EE"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.3" />
+    <path
+        android:pathData="M0.8,107 L0.8,116 Q0.8,121.2 6,121.2 L15,121.2"
+        android:strokeColor="#E622D3EE"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.3" />
+    <path
+        android:pathData="M99.2,107 L99.2,116 Q99.2,121.2 94,121.2 L85,121.2"
+        android:strokeColor="#E622D3EE"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.3" />
+</vector>

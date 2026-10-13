@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الوضع الفاتح: ورق بارد، حبر أزرق غامق -->
+    <color name="paper">#F4F7FA</color>
+    <color name="group">#FFFFFF</color>
+    <color name="field">#EDF1F6</color>
+    <color name="line">#DCE3EC</color>
+    <color name="ink">#0F1B2D</color>
+    <color name="muted">#5B687C</color>
+
+    <!-- سماوي = التتبّع والجاهزية (لون نقطة المؤشر) -->
+    <color name="brand">#0E7490</color>
+    <color name="on_brand">#FFFFFF</color>
+    <color name="brand_container">#D2F0F7</color>
+
+    <!-- أحمر = اللمس والإيقاف (لون نقطة المؤشر عند القرصة) -->
+    <color name="touch">#D93C31</color>
+    <color name="on_touch">#FFFFFF</color>
+
+    <!-- نقطة الحالة فوق الكاميرا -->
+    <color name="live">#22D3EE</color>
+    <color name="idle">#8A97AB</color>
+
+    <!-- خلفية أيقونة التطبيق -->
+    <color name="icon_bg">#0F1B2D</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الوضع الداكن: أزرق ليلي، حبر فاتح -->
+    <color name="paper">#0D1522</color>
+    <color name="group">#162132</color>
+    <color name="field">#1F2C42</color>
+    <color name="line">#27364D</color>
+    <color name="ink">#E9EFF7</color>
+    <color name="muted">#93A1B8</color>
+
+    <color name="brand">#22D3EE</color>
+    <color name="on_brand">#04222B</color>
+    <color name="brand_container">#0F3B47</color>
+
+    <color name="touch">#FF6B5E</color>
+    <color name="on_touch">#2A0A07</color>
+</resources>
