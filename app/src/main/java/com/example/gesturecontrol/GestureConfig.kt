@@ -188,8 +188,15 @@ object GestureRecorder {
         samples += HandMath.vector(lm)
         if (samples.size >= target) {
             val avg = FloatArray(42)
-            for (s in samples) for (i in 0 until 42) avg[i] += s[i]
-            for (i in 0 until 42) avg[i] /= samples.size
+            val n = samples.size.toFloat()
+            for (s in samples) {
+                for (i in 0 until 42) {
+                    avg[i] = avg[i] + s[i]
+                }
+            }
+            for (i in 0 until 42) {
+                avg[i] = avg[i] / n
+            }
             samples.clear()
             active = false
             result.value = avg
